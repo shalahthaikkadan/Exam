@@ -45,11 +45,11 @@ while True:
     choice = input("Enter your choice: ")
 
     if choice == "1":
-        amount = float(input("Enter deposit amount: "))
+        amount = int(input("Enter deposit amount: "))
         account.deposit(amount)
 
     elif choice == "2":
-        amount = float(input("Enter withdrawal amount: "))
+        amount = int(input("Enter withdrawal amount: "))
         account.withdraw(amount)
 
     elif choice == "3":
